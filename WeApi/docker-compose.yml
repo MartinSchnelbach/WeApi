@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  weapi:
+    image: ${DOCKER_REGISTRY}weapi
+    build:
+      context: .
+      dockerfile: weapi\Dockerfile
